@@ -1,0 +1,15 @@
+.popup__handlers {
+    margin: 0;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    row-gap: 33px;
+}
+
+@media screen and (max-width: 320px) {
+    .popup__handlers {
+        padding-top: 75px;
+    }
+
+}
