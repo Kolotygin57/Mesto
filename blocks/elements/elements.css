@@ -1,11 +1,11 @@
 .elements {
-    margin-top: 51px;
-    margin-bottom: 0;
-    padding: 0;
+    max-width: 880px;
+    width: calc(100% - 2 * 200px);
+    margin: 0 auto;
+    padding: 50px 0 0;
     display: grid;
-    box-sizing: border-box;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 282px);
+    grid-column-gap: 17px;
     grid-row-gap: 20px;
 }
 
