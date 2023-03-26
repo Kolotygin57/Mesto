@@ -1,7 +1,7 @@
 .button-edit {
     width: 24px;
     height: 24px;
-    margin: 0px 0 24px 18px;
+    margin: 4px 0px 0px 19px;
     background: url(../../images/Edit-Button.svg) center/contain no-repeat;
     border: none;
 }
@@ -12,13 +12,11 @@
     opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 842px) {
     .button-edit {
+        margin-left: 10px;
         width: 18px;
         height: 18px;
-        position: inherit;
-        margin-top: -49px;
-        margin-left: 226px;
     }
 
 }

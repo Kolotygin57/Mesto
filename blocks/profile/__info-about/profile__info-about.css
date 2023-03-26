@@ -8,14 +8,18 @@
     letter-spacing: 0;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: nowrap; 
 }
+@media screen and (max-width: 920px) {
+    .profile__info-about {
+        text-align: center;
+    }
 
+}
 @media screen and (max-width: 380px) {
     .profile__info-about {
         font-size: 14px;
         line-height: 17px;
-        text-align: center;
     }
 
 }

@@ -1,17 +1,17 @@
 .profile__info {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    padding-left: 33px;
+    grid-template-areas: 
+    "info-name button-edit"
+    "info-about info-about";
+    align-items: center;
     flex-wrap: wrap;
-    position: relative;
-    margin: 0;
-    padding: 0 0 0 30px;
     color: #FFFFFF;
 }
 
 @media screen and (max-width: 380px) {
     .profile__info {
         padding: 26px 0 0 0px;
-        
         font-size: 27px;
         line-height: 33px;
         text-align: center;

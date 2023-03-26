@@ -10,82 +10,84 @@
 </head>
 
 <body class="page">
-    <header class="header">
-        <img class="header__logo" src="./images/Mestro-logo.svg" alt="Логотип.">
-    </header>
-    <main class="main">
-        <section class="profile">
-            <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватарка.">
-            <div class="profile__info">
-                <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-                <p class="profile__info-about">Исследователь океана</p>
-            </div>
-            <button class="button-edit" type="button"></button>
-            <button class="profile__button-add" type="button"></button>
-        </section>
-        <section class="cards">
-            <ul class="elements">
-                <li class="element">
-                    <img src="./images/karachaevsk.jpg" alt="Заброшенная черковь." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Карачаевск</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-                <li class="element">
-                    <img src="./images/elbrus.jpg" alt="Эльбрус на горизонте." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Гора Эльбрус</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-                <li class="element">
-                    <img src="./images/dombay.jpg" alt="Лес на фоне гор." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Домбай</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-                <li class="element">
-                    <img src="./images/elbrus.jpg" alt="Эльбрус на горизонте." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Гора Эльбрус</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-                <li class="element">
-                    <img src="./images/dombay.jpg" alt="Лес на фоне гор." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Домбай</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-                <li class="element">
-                    <img src="./images/karachaevsk.jpg" alt="Заброшенная черковь." class="element__picture">
-                    <div class="element__info">
-                        <h3 class="element__text">Карачаево-Черкесия</h3>
-                        <button class="button__like" type="button"></button>
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <div class="popup popup__center popup_opened">
-        <button class="button__close" type="button"></button>
-        <div class="popup__container">
-            <h2 class="popup__heading">Редактировать профиль</h2>
-            <form class="popup__profile" action="popup" name="profile">
-                <div class="popup__handlers">
-                    <input type="text" required class="popup__info" name="name" placeholder="Жак-Ив Кусто">
-                    <input type="text" required class="popup__info" name="about" placeholder="Исследователь океана">
+    <div class="page__container">
+        <header class="header">
+            <img class="header__logo" src="./images/Mestro-logo.svg" alt="Логотип.">
+        </header>
+        <main class="main">
+            <section class="profile">
+                <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватарка.">
+                <div class="profile__info">
+                    <h1 class="profile__info-name">Жак-Ив Кусто</h1>
+                    <button class="button-edit" type="button"></button>
+                    <p class="profile__info-about">Исследователь океана</p>
                 </div>
-                <button class="popup__button"></button>
-            </form>
+                <button class="profile__button-add" type="button"></button>
+            </section>
+            <section class="cards">
+                <ul class="elements">
+                    <li class="element">
+                        <img src="./images/karachaevsk.jpg" alt="Заброшенная черковь." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Карачаевск</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img src="./images/elbrus.jpg" alt="Эльбрус на горизонте." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Гора Эльбрус</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img src="./images/dombay.jpg" alt="Лес на фоне гор." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Домбай</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img src="./images/elbrus.jpg" alt="Эльбрус на горизонте." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Гора Эльбрус</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img src="./images/dombay.jpg" alt="Лес на фоне гор." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Домбай</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="element">
+                        <img src="./images/karachaevsk.jpg" alt="Заброшенная черковь." class="element__picture">
+                        <div class="element__info">
+                            <h3 class="element__text">Карачаево-Черкесия</h3>
+                            <button class="button__like" type="button"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <div class="popup popup__center popup_opened">
+            <button class="button__close" type="button"></button>
+            <div class="popup__container">
+                <h2 class="popup__heading">Редактировать профиль</h2>
+                <form class="popup__profile" action="popup" name="profile">
+                    <div class="popup__handlers">
+                        <input type="text" required class="popup__info" name="name" placeholder="Жак-Ив Кусто">
+                        <input type="text" required class="popup__info" name="about" placeholder="Исследователь океана">
+                    </div>
+                    <button class="popup__button"></button>
+                </form>
+            </div>
         </div>
+        <footer class="footer">
+            <p class="footer__copyright">© 2020 Mesto Russia</p>
+        </footer>
     </div>
-    <footer class="footer">
-        <p class="footer__copyright">© 2020 Mesto Russia</p>
-    </footer>
 </body>
 
 </html>
