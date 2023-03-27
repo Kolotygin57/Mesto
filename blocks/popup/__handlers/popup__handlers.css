@@ -7,7 +7,7 @@
     row-gap: 33px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
     .popup__handlers {
         padding-top: 75px;
     }

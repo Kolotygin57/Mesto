@@ -1,6 +1,7 @@
 # Проектная работа 4 спринта Яндекс Практикум Cоцсеть "MESTO" 
 **Проект реализован по макету FIGMA**
-* [ССылка на макет](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Ссылка на макет](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Ссылка на проект](https://kolotygin57.github.io/mesto/)
 ### В проектной работе применены:
 * Адаптивная верстка от 1280px до 320px
 * Методология БЭМ
